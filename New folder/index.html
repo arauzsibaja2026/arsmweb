@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ARSM TECHNOLOGIES - Soluciones avanzadas de desarrollo web, soporte de hardware y asesoría de equipos para potenciar el crecimiento digital de su organización.">
+  <title>ARSM TECHNOLOGIES | Soluciones Informáticas Avanzadas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background overlay grid -->
+  <div class="tech-grid-bg"></div>
+
+  <!-- Sticky Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav-wrapper">
+        <a href="#home" class="logo" id="nav-logo">
+          <img src="logo.jpg" alt="ARSM Logo Monograma" class="logo-icon">
+          <span class="logo-text">ARSM <span class="logo-subtext">TECHNOLOGIES</span></span>
+        </a>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#software">Software a Medida</a></li>
+          <li><a href="#consulting">Consultoría</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <a href="#contact" class="btn-quote" id="cta-quote">Cotizar</a>
+          <button class="mobile-nav-toggle" id="menu-toggle" aria-label="Abrir menú">
+            <span class="hamburger"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <!-- Interactive canvas backdrop -->
+      <canvas id="particle-canvas"></canvas>
+      
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Líderes en Transformación Tecnológica
+          </div>
+          <h1>Impulsando el Crecimiento Digital de su Organización con <span class="text-gradient">Soluciones Informáticas Avanzadas</span></h1>
+          <p class="hero-subtext">Consolidamos su negocio como aliado estratégico en tecnología y desarrollo a medida.</p>
+          <div class="hero-ctas">
+            <a href="#services" class="btn btn-primary">Ver Portafolio</a>
+            <a href="#contact" class="btn btn-outline">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Services Section (Bento Grid) -->
+    <section class="section-padding" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-pre">Especialidades</span>
+          <h2 class="section-title">Servicios Corporativos Clave</h2>
+          <p class="section-desc">Diseño de vanguardia y soporte técnico de alto nivel alineados a las metas de su empresa.</p>
+        </div>
+
+        <div class="services-bento">
+          
+          <!-- Card 1: Web Development (Wide, Span 7) -->
+          <div class="bento-card card-wide glassmorphism" id="service-web">
+            <div class="card-wide-layout">
+              <div class="card-text-side">
+                <div class="card-icon-box">
+                  <!-- SVG Web Dev Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                    <line x1="8" y1="21" x2="16" y2="21"/>
+                    <line x1="12" y1="17" x2="12" y2="21"/>
+                    <path d="M12 9l-2 2 2 2"/>
+                    <path d="M14 9l2-2-2-2" opacity="0.3"/>
+                    <path d="M10 7l4 6"/>
+                  </svg>
+                </div>
+                <h3 class="card-title">Diseño y Desarrollo de Páginas Web</h3>
+                <p class="card-text">Creación de sitios web corporativos modernos, optimizados para dispositivos móviles (responsive), con altos estándares de velocidad y posicionamiento en buscadores (SEO) para la captación activa de clientes potenciales.</p>
+                
+                <div class="tech-spec-grid">
+                  <div class="spec-item">
+                    <span class="spec-label">Tecnología</span>
+                    <span class="spec-value">JAMstack / React</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">SEO Core</span>
+                    <span class="spec-value">98%+ Score</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">Adaptabilidad</span>
+                    <span class="spec-value">Fluid UI</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card-image-side">
+                <img src="web_dev_service.png" alt="Diseño Web Corporativo" class="service-card-image">
+              </div>
+            </div>
+
+            <a href="#contact" class="card-footer">
+              Saber Más 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <!-- Card 2: Specialized Hardware Support (Narrow, Span 5) -->
+          <div class="bento-card card-narrow glassmorphism" id="service-hardware">
+            <div class="card-narrow-layout">
+              <div class="card-icon-box">
+                <!-- SVG Tech Support Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2"/>
+                  <rect x="2" y="14" width="20" height="8" rx="2"/>
+                  <line x1="6" y1="6" x2="6.01" y2="6"/>
+                  <line x1="6" y1="18" x2="6.01" y2="18"/>
+                  <path d="M18 6h.01"/>
+                  <path d="M18 18h.01"/>
+                </svg>
+              </div>
+              <h3 class="card-title">Soporte Técnico Especializado</h3>
+              <p class="card-text">Mantenimiento preventivo y correctivo de computadoras, servidores y redes empresariales. Diagnóstico avanzado, optimización física e interna de velocidad y reparación de fallas críticas.</p>
+              
+              <div class="card-image-bottom">
+                <img src="hardware_service.png" alt="Soporte de Hardware" class="service-card-image">
+              </div>
+            </div>
+
+            <a href="#contact" class="card-footer">
+              Solicitar Soporte 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+
+          <!-- Card 3: Strategic Purchase Equipment Consulting (Full, Span 12) -->
+          <div class="bento-card card-full glassmorphism" id="consulting">
+            <div class="card-full-layout">
+              <div class="card-full-text-side">
+                <div class="card-icon-box">
+                  <!-- SVG Consulting Icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    <circle cx="12" cy="12" r="3"/>
+                    <line x1="12" y1="9" x2="12" y2="15"/>
+                    <line x1="9" y1="12" x2="15" y2="12"/>
+                  </svg>
+                </div>
+                <h3 class="card-title">Asesoramiento Estratégico en Compra de Equipos</h3>
+                <p class="card-text">Consultoría tecnológica personalizada para la adquisición de hardware empresarial. Analizamos sus necesidades operativas para recomendarle equipos (laptops, servidores, routers) con la mejor relación costo-beneficio del mercado, evitando gastos excesivos o compras inadecuadas.</p>
+                
+                <a href="#contact" class="card-footer" style="margin-top: 2rem; display: inline-flex;">
+                  Iniciar Consultoría 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+              
+              <div class="card-full-image-side">
+                <img src="consulting_service.png" alt="Asesoramiento Estratégico" class="service-card-image-full">
+                <div class="card-full-overlay-box glassmorphism">
+                  <div style="border-left: 3px solid var(--accent-cyan); padding-left: 0.8rem; margin-bottom: 0.8rem;">
+                    <h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.2rem;">Evite Sobregastos</h4>
+                    <p style="color: var(--text-secondary); font-size: 0.75rem;">Optimice su presupuesto en hardware.</p>
+                  </div>
+                  <div style="border-left: 3px solid var(--accent-blue); padding-left: 0.8rem;">
+                    <h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.2rem;">Garantía de Rendimiento</h4>
+                    <p style="color: var(--text-secondary); font-size: 0.75rem;">Equipos adaptados a la carga operativa real.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Custom Software Solutions (Blueprint Section) -->
+    <section class="section-padding blueprint-section" id="software">
+      <div class="container">
+        <div class="blueprint-grid">
+          
+          <!-- Blueprint details & tabs on Left -->
+          <div class="blueprint-details">
+            <span class="blueprint-tag">Ingeniería de Software</span>
+            <h2 class="blueprint-title">Desarrollo de Aplicaciones y Sistemas a Medida</h2>
+            <p class="blueprint-desc">Diseño y programación de software empresarial adaptado con precisión a las dinámicas específicas de su negocio, optimizando sus flujos de trabajo.</p>
+            
+            <!-- Tabs Navigation Triggers -->
+            <div class="tab-triggers">
+              <button class="tab-trigger active" data-target="tab-inventory" id="trigger-inventory">
+                Gestión de Inventario
+              </button>
+              <button class="tab-trigger" data-target="tab-payroll" id="trigger-payroll">
+                Sistema de Planillas (Nómina)
+              </button>
+            </div>
+
+            <!-- Tabs Content -->
+            <div class="tab-contents">
+              <!-- Content A: Inventory -->
+              <div class="tab-content active" id="tab-inventory">
+                <ul class="feature-list">
+                  <li class="feature-item">
+                    <span class="feature-check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <div>
+                      <h4 class="feature-item-title">Automatización de Existencias</h4>
+                      <p class="feature-item-desc">Actualización en tiempo real de entradas y salidas de bodega mediante integraciones de API.</p>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <div>
+                      <h4 class="feature-item-title">Alertas Inteligentes de Stock Mínimo</h4>
+                      <p class="feature-item-desc">Notificaciones proactivas vía correo o Slack para evitar rupturas de stock críticas.</p>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <div>
+                      <h4 class="feature-item-title">Trazabilidad y Movimientos</h4>
+                      <p class="feature-item-desc">Historial completo con firmas de usuario y bitácora detallada de transferencias entre bodegas.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Content B: Payroll / Nómina -->
+              <div class="tab-content" id="tab-payroll">
+                <ul class="feature-list">
+                  <li class="feature-item">
+                    <span class="feature-check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <div>
+                      <h4 class="feature-item-title">Control Automatizado de Salarios</h4>
+                      <p class="feature-item-desc">Cálculo preciso del salario base, bonificaciones, comisiones y rebajas de ley.</p>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <div>
+                      <h4 class="feature-item-title">Retenciones Legales y Horas Extra</h4>
+                      <p class="feature-item-desc">Cálculo de impuestos, aportes del seguro social, horas extras diurnas/nocturnas y recargos por feriados.</p>
+                    </div>
+                  </li>
+                  <li class="feature-item">
+                    <span class="feature-check">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <div>
+                      <h4 class="feature-item-title">Reportes Administrativos y Vacaciones</h4>
+                      <p class="feature-item-desc">Generación de archivos bancarios para dispersión directa y liquidaciones acumuladas automáticas.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Blueprint Visual Graphics Panel on Right -->
+          <div class="blueprint-visual-panel glassmorphism" id="blueprint-visual-panel">
+            <div class="blueprint-panel-grid"></div>
+            
+            <div class="blueprint-image-container">
+              <img src="inventory_system.png" alt="Sistema de Gestión de Inventario" class="blueprint-img active" id="img-inventory">
+              <img src="payroll_system.png" alt="Sistema de Planillas (Nómina)" class="blueprint-img" id="img-payroll">
+            </div>
+            
+            <div class="blueprint-overlay-stat">
+              <span class="stat-lbl" id="blueprint-stat-title">Rotación de Inventario</span>
+              <div class="stat-val" id="blueprint-stat-value">+98.4%</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Lead Generation Form Section -->
+    <section class="section-padding" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <!-- Contact information details -->
+          <div class="contact-info">
+            <span class="section-pre">Escríbenos</span>
+            <h3>Impulse su Infraestructura Tecnológica Hoy</h3>
+            <p>Complete el formulario corporativo. Nuestro equipo de ingenieros analizará sus necesidades y responderá en un plazo máximo de 24 horas hábiles.</p>
+            
+            <!-- Glassmorphic Brand Showcase Card with Logo -->
+            <div class="contact-brand-card glassmorphism">
+              <img src="logo.jpg" alt="ARSM Logo Showcase" class="contact-logo-showcase">
+              <div class="contact-brand-badge">TECNOLOGÍA E INGENIERÍA A MEDIDA</div>
+            </div>
+
+            <div class="contact-details">
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-detail-lbl">Correo Corporativo</span>
+                  <div class="contact-detail-val">contacto@arsm.tech</div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-detail-lbl">Ubicación Central</span>
+                  <div class="contact-detail-val">San José, Costa Rica</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Glassmorphic Form container -->
+          <div class="contact-form-container glassmorphism" id="contact-form-card">
+            <form class="contact-form" id="lead-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Nombre Completo</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="Ej. Juan Pérez" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Correo Electrónico Corporativo</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="Ej. jperez@empresa.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-company" class="form-label">Nombre de la Empresa</label>
+                <input type="text" id="contact-company" class="form-input" placeholder="Ej. Empresa S.A." required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Mensaje o Requerimientos</label>
+                <textarea id="contact-message" class="form-input" placeholder="Detalle brevemente el tipo de soporte o desarrollo que requiere..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-submit" id="btn-submit-form">
+                Enviar Solicitud
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+
+              <div class="form-feedback" id="form-feedback-message"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <a href="#home" class="logo" style="font-size: 1.2rem;">
+          <img src="logo.jpg" alt="ARSM Logo Monograma Footer" class="logo-icon-footer">
+          <span class="logo-text-footer">ARSM <span class="logo-subtext-footer">TECHNOLOGIES</span></span>
+        </a>
+        <p class="footer-copy">&copy; 2026 ARSM TECHNOLOGIES. Todos los derechos reservados.</p>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#software">Desarrollo</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
